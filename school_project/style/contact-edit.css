@@ -1,0 +1,92 @@
+
+.All {
+    text-align: center;
+    color: #ff5869;
+    padding: 5%;
+}
+
+
+.table {
+     
+    height: 500px;
+    width: 100%;
+    
+    text-align: left;
+}
+
+
+.Contact {
+     
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom:5%;
+    margin-top: 5%;
+}
+
+.headercell {
+       padding-left: 40px;
+       width: 30%;
+}
+
+.head {
+        
+    background-color: #00a0a8;
+    height: 15%;
+    font-size: 30px;
+    color: white; 
+    border-bottom: 2px solid white;
+}
+
+.tableContent {
+     
+    background-color: #f0eef1;
+    border-bottom: 1.5px solid white;
+}
+
+.First {
+    padding-left: 40px;
+    color: #5d7273;
+    font-size: 20px;
+}
+
+.Second {
+     
+    text-align: center;
+    width: 15%;
+    color: #5d7273;
+    font-size: 20px;
+   
+}
+
+.cell {
+    
+    height: 75%;
+    width: 75%;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+   
+
+     
+}
+
+.headerC {
+    padding-left: 40px;
+    width: 50%;
+}
+
+.cont-b {
+    padding: 3.5%;
+    margin-left: 28%;
+    margin-right: 31%;
+}
+
+.btnC {
+      
+    height: 30px;
+    width: 80px;
+    background-color: #d1ccc0;
+    color: black;
+    border-radius: 10px; 
+}

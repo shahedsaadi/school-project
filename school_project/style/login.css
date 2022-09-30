@@ -1,0 +1,63 @@
+
+.LoginBox {
+    background-color:#daf1ef ; 
+    height: 450px;
+    width: 380px ;
+    text-align: left;
+    margin: 0 auto;
+    color: #00a0a8 ;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.name-pass {
+    margin-top: 3%; 
+    padding: 2%;
+}
+
+.inputs {
+    width: 250px;
+    height: 30px;
+    margin: 2%;
+    margin-left: 6%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px  solid #00a0a8;
+    outline: none;
+    height: 40px;
+    color: #00a0a8;
+    font-size: 16px;
+    background: transparent;
+}
+
+.btn-login {
+    background-color: #94d5d1;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.btn-login:hover{
+      background-color: white; 
+      color: black; 
+      border: 2px solid #019fa8;
+}
+.btn-login a{
+    color: #019fa8; 
+}
+.btn-login:active{
+    box-shadow: 0px 0px #666;
+    transform: translateY(5px);   
+}

@@ -1,0 +1,259 @@
+
+/* Page Title ====================================================== */
+.page-title {
+   text-align: center;
+    width: 300px;
+    padding-top: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-size: 40px;
+    color: #52cabe;
+    margin: 0 auto;
+}
+
+
+/* Divs Effects ====================================================== */
+.divs {
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+
+/* divs title ======================================================= */
+.tt {
+   text-align:left;
+    padding-left: 60px;
+    color: #5d7273;
+    font-size: 35px;
+}
+
+
+/* tabels ============================================================ */
+.Tables {
+    width:90%;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-spacing: 10px;
+    border: 1px solid #5d7273;
+}
+
+
+
+/* Time Tabel ======================================================== */
+.hw-d {
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #5d7273;
+    width:90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 55px ;
+    color: #5d7273;
+    margin-bottom: 3px;
+}
+
+.tt-h {
+    border-radius: 20px;
+    width: 15%;
+    height: 90px auto;   
+}
+
+.tt-d {
+    border-radius: 20px;
+    background-color: #c2d1f0;
+    width: 15%;
+    height: 90px auto;
+    color: #2952a3;
+}
+
+.tt-s {
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    color: #4d4d4d;
+    width: 15%;
+    height: 90px auto;
+}
+
+
+
+/* Homework Tabel ======================================================= */
+
+.hw-s {
+    border-radius: 20px;
+    background-color: #caea7b;
+    width: 20%;
+    height: 90px auto;
+    color: #97c520;    
+}
+
+.hw-h {
+    border-radius: 20px;
+    background-color: #f9b8d5;
+    width: 80%;
+    height: 90px auto;
+    color: #d31269;
+}
+
+.hw-ss {
+    border-radius: 20px;
+    background-color: #c2d1f0;
+    width: 20%;
+    height: 90px auto;
+    color: #2952a3;     
+}
+
+.hw-hh {
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    color: #4d4d4d;
+    width: 80%;
+    height: 90px auto;
+}
+
+
+
+/* Exam Schedual ===================================================== */
+
+.es-day {
+    border-radius: 20px;
+    background-color: #caea7b;
+    width: 30%;
+    height: 00px auto;
+    color: #97c520;
+}
+
+.es-s {
+    border-radius: 20px;
+    background-color: #f9b8d5 ;
+    width: 40%;
+    height: 90px auto;
+    color: #d31269;  
+}
+
+.es-date {
+    border-radius: 20px;
+    background-color: #bce6f6;
+    width: 30%;
+    height: 90px auto;
+    color: #1c99ca;
+}
+
+
+.ex-day {
+    border-radius: 20px;
+    background-color: #f6fce9;
+    width: 30%;
+    height: 90px auto;
+    color: #546e11;    
+}
+
+.ex-sub {
+    border-radius: 20px;
+    background-color: #fde8f1 ;
+    width: 40%;
+    height: 90px auto;
+    color: #750a3a;  
+}
+
+.ex-dat {
+    border-radius: 20px;
+    background-color: #e9f6fc;
+    width: 30%;
+    height: 90px auto;
+    color: #0f5570;
+}
+
+#ExamSchedule {
+    padding-bottom: 10%;
+}
+
+.cells {
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.btns {
+    height: 30px;
+    width: 80px;
+    background-color: #d1ccc0;
+    color: black;
+    border-radius: 10px; 
+}
+
+.bts-set {
+    margin-top: 25px;
+    margin-left: 47%;
+    margin-right: 47%;
+    margin-bottom: 50px;
+}
+
+
+
+.day-date {
+    font-size: 25px;
+    border: 1px solid #5d7273;
+    width:90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 55px ;
+    color: #5d7273;
+    margin-bottom: 3px;
+    padding-left: 25%;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+.dd-set {
+    width: auto;
+    float: left;
+    margin-right: 1%;
+    border-radius: 10px;
+    height: 30px;
+    border: #5d7273;
+}
+
+.dd-set1 {
+    width: 0 auto;
+    float: left;
+    margin-right: 1%;
+    border-radius: 10px;
+    height: 30px;
+    border: 1px solid #5d7273;
+    padding: 10px;
+}
+
+.HWcells {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.HW-cells {
+    height: 30px;
+    width: 90%;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.dd-ES {
+    width: 0 auto;
+    float: left;
+    margin-right: 1%;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    margin-left: 25%;
+}
+
+

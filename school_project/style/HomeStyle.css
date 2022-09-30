@@ -1,0 +1,236 @@
+/* Hero Pic ================================================================================= */
+#hero {
+    height: 500px;
+    width: 100% auto;
+    background: url(../images/school.jpg) no-repeat center center  ;
+    margin-bottom: 50px;
+}
+
+/* About section =========================================================================== */
+#about {
+    background-color: #dedcdf ; 
+    height: 400px;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 8%;;
+    margin-top: 8%;
+}
+#about h1{
+    color:#00a0a8;
+}
+#about p{
+    color: #5d7273;
+}
+
+
+.about {
+    padding-top: 10px;
+    line-height: 1.5;
+    font-size: 20px;   
+}
+
+/* classes Section ========================================================================== */
+#classes {
+    text-align: center;
+    color: white;
+    margin-bottom: 8%;;
+    padding-top: 10%;
+    padding-bottom: 12%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #00a0a8;
+}
+
+/* 3 buttons ================================================================================ */
+.bttn {
+    background-color: #ffe6e8;
+    border: 2px solid #ff5869;
+    color: #ff5869;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.bttn:hover{
+      background-color: white;  
+      border: 4px solid #ff5869;
+}
+.bttn a{
+    color: #ff5869
+}
+.bttn:active{
+    box-shadow: 0px 0px #666;
+    transform: translateY(5px);   
+}
+
+
+#btn2{
+    background-color: #fff8e6;
+    border: 2px solid #fac831;
+    color: #fbc831;
+}
+#btn2:hover{
+      background-color: white;  
+      border: 4px solid #ffc43a;
+}
+#btn2 a{
+    color: #fec631;
+}
+
+
+#btn3{
+    background-color: #f3faeb;
+    border: 2px solid #92d14f;
+    color: #92d14f;
+}
+#btn3:hover{
+      background-color: white;  
+      border: 4px solid #92d14f;
+}
+#btn3 a{
+    color: #92d14f;
+}
+
+
+/* colmns =================================================================== */
+.col-3 {
+    width: 30%;
+    height: 99%;
+    float: left;
+    margin-right: 2.5%;
+    padding: 10px;
+    border-radius: 10px;
+    color: #5d7273;
+    background-color: white;
+}
+.col-3 img{
+    margin: 10%;
+    border-radius: 15px;
+    width: 200px;
+    max-width: 300px;
+    height: 200px;
+
+}
+
+
+.row {
+    height: 400px; 
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 4%; 
+}
+
+.cla-header {
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+#col1 {
+    margin-left: 2.5%;
+    /*background-color: #fee49a;
+    border: 3px solid #feba01;
+    color: #feba01;*/
+}
+
+
+#col2 {
+    /*background-color: #92d14f;
+    border: 3px solid #92d14f;*/    
+} 
+
+
+#col1 img{
+    border: 3px solid #ff5869;
+}
+#col2 img{
+    border: 3px solid #ffc43a;
+}
+#col3 img{
+    border: 3px solid #92d14f;
+}
+
+
+#col3{
+    /*background-color: #ff5869;
+    border: 3px solid #ff5869;*/
+}
+
+
+/* Info About ===========================================================*/
+
+#info {
+    background-color: #daf1ef;
+    height: 100px;
+    text-align: center;
+    color:#00a0a8; 
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    font-size: 15px;
+    padding-left: 2%;
+}
+
+.infoo {
+    width: 32%;
+    float: left;
+    margin-right: 1%;
+    padding: 15px;
+    
+}
+/* Ads ====================================================================== */
+
+.ads {
+    text-align: center;
+    height: 650px;
+    margin-top: 8%;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 12%;
+    color: #ff5a6b;
+    background-color: #daf1ef; 
+
+}
+
+.aads {
+    height: 300px; 
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 4%; 
+    color: white;
+}
+
+
+.ann {
+    width: 32%;
+    height: 250px;
+    float: left;
+    margin-right: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: white;
+}
+
+#ann1 {
+   margin-left: 1%;
+    background-color:#f95a6e; 
+}
+
+#ann2 {
+   background-color: #fec631; 
+}
+
+#ann3 {
+    background-color: #52cabe;
+}

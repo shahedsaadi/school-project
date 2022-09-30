@@ -1,0 +1,75 @@
+
+.con-t {
+    text-align: center;
+    color: #ff5869;
+}
+
+.contact {
+    background-color:#f0eef1;
+    width: 100%;
+    position: static;
+    z-index: 1;
+}
+
+.icons {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: -30px;
+    padding: 5px;
+    background-color: #f2f2f2;
+}
+
+.contacts {
+    height: 350px; 
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+}
+
+.cont-c {
+    width: 250px;
+    height: 250px;
+    background-color: #d9d9d9;
+    top: 50%;
+    left:40% ;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    float: left;
+    margin-right: 1%;
+    padding: 70px 50px;
+    text-align: center;
+    
+}
+
+.cont-e {
+    width: 250px;
+    height: 250px;
+    background-color: #d9d9d9;
+    top: 50%;
+    left:60% ;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    float: left;
+    padding: 70px 30px;
+    text-align: center;
+}
+
+.social {
+    background-color:#f0eef1;
+    width: 100%;
+}
+
+.soci {
+    width: 50px;    
+}
+
+.soocial {
+    text-align: center;
+}

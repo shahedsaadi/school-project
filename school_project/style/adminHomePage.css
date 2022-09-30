@@ -1,0 +1,59 @@
+
+.all {
+    text-align: center;
+    color: #ff5869;
+    padding: 5%;
+}
+
+.theTable {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom:5%;
+    margin-top: 5%;
+}
+
+.adminHome {
+    border-collapse: collapse;
+    width: 100%;
+    height: 400px;
+    text-align: left;
+    
+}
+
+.adminHome a{
+    color: #00a0a8;
+    font-size: 20px;
+}
+
+.adminHome a:hover{
+    color: #ff5869;
+}
+
+.header {
+    background-color: #00a0a8;
+    height: 20%;
+    font-size: 30px;
+    color: white; 
+    border-bottom: 2px solid white;
+}
+
+.headerCells {
+    padding-left: 40px;
+}
+
+.table-content {
+    background-color: #f0eef1;
+    border-bottom: 1.5px solid white;
+}
+
+.FirstCols {
+    padding-left: 40px;
+    color: #5d7273;
+    font-size: 20px;
+}
+
+.othersColls {
+    text-align: center;
+    width: 15%;
+}

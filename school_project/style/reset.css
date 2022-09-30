@@ -1,0 +1,229 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+    text-rendering: optimizeLegibility;
+}
+
+#container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* menu ============================================================================ */
+#menu {
+    height: 60px;
+    width: 100%;
+    background-color: #00a0a8;
+    color: white;
+    /*position: fixed;*/
+}
+
+#logo {
+    float: left; 
+    line-height: 60px;
+    padding-left: 20px;
+    font-size: 40px;  
+}
+
+.menu-all .menu-item {
+    float: right;
+    padding: 10px;
+    list-style-type: none;
+    line-height: 40px; 
+    font-size: 20px;  
+}
+
+.menu-item1{
+    float: right;
+    padding: 10px;
+    list-style-type: none;
+    line-height: 40px; 
+    font-size: 20px;
+}
+
+
+
+.logout_btn {
+    border: none;
+    color: white;
+    background-color: #00a0a8; 
+    font-size: 20px;
+    float: right;
+    list-style-type: none;
+    line-height: 40px; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.logout_btn:hover{
+    background-color: #94d5d1 ;
+}
+
+
+.menu-all .menu-item:hover{
+    background-color: #94d5d1 ;
+}
+
+/* sub menu ====================================================================================== */
+.sub-contant {
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+    background-color: #00a0a8;
+    max-height: 0;
+    z-index: 3;
+}
+
+.sub-contant a{
+    color: #fff;
+    text-decoration: none;  
+}
+
+.sub-contant a:hover{
+    text-decoration: none; 
+}
+
+.sub-drop {
+    padding: 0px;
+    
+}
+.sub-drop ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+.sub-drop ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+.sub-drop ul li:hover{
+    background-color: #94d5d1;  
+}
+
+
+.menu-item:hover{
+    background-color: #94d5d1;
+
+}
+.menu-item:hover .sub-contant {
+    max-height: 400px;
+}
+
+
+/* a effects ================================================================================== */
+a{
+    color: white;
+    text-decoration: none; 
+}
+
+
+/* bottun ==================================================================================== */
+.btn {
+    background-color: #94d5d1;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn:hover{
+      background-color: white; 
+      color: black; 
+      border: 2px solid #019fa8;
+}
+.btn a{
+    color: #019fa8; 
+}
+.btn:active{
+    box-shadow: 0px 0px #666;
+    transform: translateY(5px);   
+}
+
+/* h1 font size =========================================================================== */
+h1{
+    font-size: 40px;
+}
+
+/*Footer ======================================================================================= */
+#wsfooter {
+    clear: both;
+    text-align: center;
+    background-color:#00a0a8;
+    color: white;
+    padding: 20px 0;
+    font-size: 20px; 
+}
+
+
+
+    
+
+
+/* admin menu =================================================== */
+
+#mySidenav a {
+    position: fixed;
+    right: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    padding-left: 20px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #264d73;
+    border-radius:  5px 0 0 5px ;
+    z-index: 5;
+}
+
+#mySidenav a:hover {
+    right: 0;
+}
+
+#ِadmin {
+    top: 100px;
+    background-color: #78d3ca;
+}
+
+#home {
+    top: 160px;
+    background-color: #ff808c;
+}
+
+#aboutAmin {
+    top: 220px;
+    background-color: #ffdd80;
+}
+
+#class1 {
+    top: 280px;
+    background-color: #78d3ca;
+}
+
+#class2 {
+    top: 340px;
+    background-color: #ff808c;
+}
+
+#class3 {
+    top: 400px;
+    background-color: #ffdd80;
+}
+
+#contact {
+    top: 460px;
+    background-color: #78d3ca;
+}
+
+

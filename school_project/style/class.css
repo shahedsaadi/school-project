@@ -1,0 +1,261 @@
+
+/*bottuns of 3 pages of classes ======================================= 
+.c-btns {
+    padding: 1px;
+    float: right;
+    font-size: 18px;
+    z-index: 2;
+}
+
+.ripple-button{
+	position: relative;
+	width:150px;
+	height:60px;
+	background-color:#ff5869;
+	color: white;
+	border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	display:table-cell;
+    font-size: 17px ;
+}
+
+.ripple-button:hover{
+    color: #ffe6e8;
+}*/
+
+
+
+/* Page Title ====================================================== */
+.page-title {
+   text-align: center;
+    width: 300px;
+    height: 80px;
+    padding-top: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-size: 40px;
+    color: #52cabe;
+    margin: 0 auto;
+}
+
+
+/* Divs Effects ====================================================== */
+.divs {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}
+
+
+/* divs title ======================================================= */
+.tt {
+   text-align:left;
+    padding-left: 60px;
+    color: #5d7273;
+    font-size: 35px;
+}
+
+
+/* tabels ============================================================ */
+.Tables {
+    width:90%;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-spacing: 10px;
+    border: 1px solid #5d7273;
+    margin-bottom: 5%;
+}
+
+
+
+/* Time Tabel ======================================================== */
+.hw-d {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #5d7273;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 55px ;
+    color: #5d7273;
+    margin-bottom: 3px;
+    padding-left: 10%;
+    /*padding-right: 26%;*/
+}
+
+.titleHW {
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+.tt-h {
+    border-radius: 20px;
+    width: 15%;
+    height: 90px auto;   
+}
+
+.tt-d {
+    border-radius: 20px;
+    background-color: #c2d1f0;
+    width: 15%;
+    height: 90px auto;
+    color: #2952a3;
+}
+
+.tt-s {
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    color: #4d4d4d;
+    width: 15%;
+    height: 90px auto;
+}
+
+
+
+/* Homework Tabel ======================================================= */
+
+.hw-s {
+    border-radius: 20px;
+    background-color: #caea7b;
+    width: 20%;
+    height: 90px auto;
+    color: #97c520;    
+}
+
+.hw-h {
+    border-radius: 20px;
+    background-color: #f9b8d5;
+    width: 80%;
+    height: 90px auto;
+    color: #d31269;
+}
+
+.hw-ss {
+    border-radius: 20px;
+    background-color: #c2d1f0;
+    width: 20%;
+    height: 90px auto;
+    color: #2952a3;     
+}
+
+.hw-hh {
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    color: #4d4d4d;
+    width: 80%;
+    height: 90px auto;
+}
+
+
+
+/* Exam Schedual ===================================================== */
+
+.es-day {
+    border-radius: 20px;
+    background-color: #caea7b;
+    width: 30%;
+    height: 00px auto;
+    color: #97c520;
+}
+
+.es-s {
+    border-radius: 20px;
+    background-color: #f9b8d5 ;
+    width: 40%;
+    height: 90px auto;
+    color: #d31269;  
+}
+
+.es-date {
+    border-radius: 20px;
+    background-color: #bce6f6;
+    width: 30%;
+    height: 90px auto;
+    color: #1c99ca;
+}
+
+
+.ex-day {
+    border-radius: 20px;
+    background-color: #f6fce9;
+    width: 30%;
+    height: 90px auto;
+    color: #546e11;    
+}
+
+.ex-sub {
+    border-radius: 20px;
+    background-color: #fde8f1 ;
+    width: 40%;
+    height: 90px auto;
+    color: #750a3a;  
+}
+
+.ex-dat {
+    border-radius: 20px;
+    background-color: #e9f6fc;
+    width: 30%;
+    height: 90px auto;
+    color: #0f5570;
+}
+
+#ExamSchedule {
+    padding-bottom: 10%;
+}
+
+
+
+/* Style the tab */
+.tab {
+    position: fixed;
+    right: 0;
+    float: right;
+    /*border: 1px solid #ccc;*/
+    background-color: #ffe6e8;
+    width: 12%;
+    margin-top: -80px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: #ff5869;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ffb3b9;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ff5869;
+    color: #ffe6e8;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 10px;
+  /*border: 1px solid #ccc;*/
+  width: 88%;
+  border-left: none;
+  height: auto;
+}
