@@ -5,9 +5,14 @@ $user = "root"; /* User */
 $password = ""; /* Password */
 $db = "school"; /* Database name */
 
-$con = mysqli_connect($host, $user, $password,$db);
+try {
+    $con = mysqli_connect($host, $user, $password, $db);
+} catch (Exception $e) {
+    echo 'Connection failed: ', $e->getMessage(), "\n";
+}
+
 // Check connection
 if (!$con) {
- die("Connection failed: " . mysqli_connect_error());
+    die("Connection failed: " . mysqli_connect_error());
 }
 
