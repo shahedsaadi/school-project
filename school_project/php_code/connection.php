@@ -9,6 +9,7 @@ $db = "school"; /* Database name */
 try {
     $con = mysqli_connect($host, $user, $password, $db);
 } catch (Exception $e) {
+    // print error message details
     echo 'Connection failed: ', $e->getMessage(), "\n";
 }
 
